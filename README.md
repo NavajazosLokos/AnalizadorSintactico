@@ -41,7 +41,7 @@ El analizador realiza **desplazamientos (`shift`)** y **reducciones (`reduce`)**
 Se recomienda compilar todos los archivos juntos:
 
 ```bash
-g++ -g principal.cpp pila.cpp lexico.cpp Estado.cpp Terminal.cpp NoTerminal.cpp -o analizador.exe
+g++ -g principal.cpp pila.cpp lexico.cpp -o principal.exe
 
 Luego ejecutar:
 ./principal.exe
